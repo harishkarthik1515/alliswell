@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-gray-600">
-          <p>&copy; 2024 Jewel. All rights reserved.</p>
+          <p>&copy; 2024 AllIsWell. All rights reserved.</p>
         </div>
       </div>
     </footer>
