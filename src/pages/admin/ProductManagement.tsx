@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../../components/ui/Button';
 import { collection, getDocs, doc, deleteDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../../Firebase';
-import { formatPrice } from '@/lib/utils';
+import { formatPrice } from '../../lib/utils';
 import { useNavigate } from 'react-router-dom';
 
 export const ProductManagement: React.FC = () => {
